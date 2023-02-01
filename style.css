@@ -27,6 +27,7 @@ body {
   font-family: poppins, sans-serif;
   background-color: var(--bg);
   color: #fff;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -397,9 +398,6 @@ footer .credit a {
 @media (max-width: 768px) {
   html {
     font-size: 62.5%;
-  }
-  body {
-    overflow-x: hidden;
   }
   #hamburger__menu {
     display: inline-block;
