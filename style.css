@@ -57,7 +57,8 @@ body {
   display: inline-block;
   color: #fff;
   font-size: 1.4rem;
-  margin: 1rem 1.14rem;
+  margin: 1rem;
+  transform: translateY(2px);
 }
 .navbar .navbar__right a:hover {
   color: var(--primary);
@@ -65,7 +66,7 @@ body {
 .navbar .navbar__right a::after {
   content: "";
   display: block;
-  padding-bottom: 0.5rem;
+  padding-top: 0.3rem;
   border-bottom: 0.1rem solid var(--primary);
   transform: scaleX(0);
   transition: 100ms ease;
@@ -407,6 +408,13 @@ footer .credit a {
   .navbar {
     height: 6.5rem;
   }
+  .navbar .navbar__logo {
+    font-size: 2.5rem;
+  }
+  .navbar .navbar__extra a {
+    font-size: 2.1rem;
+    margin: 0 1rem;
+  }
   .navbar .navbar__right {
     display: flex;
     flex-direction: column;
@@ -481,6 +489,13 @@ footer .credit a {
 @media (max-width: 450px) {
   html {
     font-size: 55%;
+  }
+  .navbar .navbar__logo {
+    font-size: 2.5rem;
+  }
+  .navbar .navbar__extra a {
+    font-size: 2.1rem;
+    margin: 0 1rem;
   }
   .hero {
     min-height: 70vh;
