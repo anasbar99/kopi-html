@@ -14,3 +14,14 @@ document.addEventListener('click', function(e){
         navbarRight.classList.remove('active')
     }
 })
+
+const prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+    const currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("header").classList.remove('show');
+    }
+    else { document.getElementById("header").classList.add('show');
+    }
+    prevScrollpos = currentScrollPos;
+  }

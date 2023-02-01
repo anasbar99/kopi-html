@@ -50,12 +50,14 @@ body {
 .navbar .navbar__logo span {
   color: var(--primary);
 }
-
+.navbar .navbar__right {
+  display: flex;
+}
 .navbar .navbar__right a {
   display: inline-block;
   color: #fff;
   font-size: 1.4rem;
-  margin: 1rem;
+  margin: 1rem 1.14rem;
 }
 .navbar .navbar__right a:hover {
   color: var(--primary);
@@ -406,6 +408,8 @@ footer .credit a {
     height: 6.5rem;
   }
   .navbar .navbar__right {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     top: 100%;
     right: -100%;
