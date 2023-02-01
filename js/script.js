@@ -1,4 +1,9 @@
 const navbarRight = document.querySelector('.navbar__right');
+// const menuToggle = document.querySelector('#hamburger__menu');
+
+// menuToggle.addEventListener('click', function(){
+//     navbarRight.classList.toggle('active')
+// })
 document.querySelector('#hamburger__menu').onclick = () => {
     navbarRight.classList.toggle('active')
 }
