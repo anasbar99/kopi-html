@@ -336,16 +336,18 @@ footer {
 }
 footer .socials__media {
   padding: 1rem 0;
+  gap: 5rem;
 }
 footer .socials__media a {
   color: #fff;
   display: inline-block;
-  position: relative;
-  margin: 1rem;
+  /* position: relative; */
+  /* margin: 0 1rem; */
   text-align: center;
   font-size: 2rem;
   background-color: rgba(80, 29, 0, 0.514);
   width: 3rem;
+  height: 3rem;
   border-radius: 50%;
   transition: all 100ms ease;
 }
@@ -499,6 +501,10 @@ footer .credit a {
   }
   .hero {
     min-height: 70vh;
+    top: 10rem;
+  }
+  .hero .content h1 {
+    font-size: 4rem;
   }
   .menu .row {
     margin-top: 5rem;
@@ -551,7 +557,18 @@ footer .credit a {
   }
   footer {
     text-align: left;
-    padding-left: 2rem;
+    padding: 2rem 2rem 4rem;
+  }
+  footer .socials__media {
+    padding: 1rem 0;
+    gap: 5rem;
+  }
+  footer .socials__media a {
+    font-size: 2rem;
+    margin: 0 0.5rem;
+  }
+  footer .socials__media a:hover {
+    box-shadow: 0px 0px 0px 5px rgba(252, 252, 252, 0.18);
   }
   footer .links {
     display: flex;
