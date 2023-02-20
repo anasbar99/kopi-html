@@ -342,7 +342,7 @@ footer .socials__media a {
   color: #fff;
   display: inline-block;
   /* position: relative; */
-  /* margin: 0 1rem; */
+  margin: 0 1rem;
   text-align: center;
   font-size: 2rem;
   background-color: rgba(80, 29, 0, 0.514);
@@ -360,7 +360,6 @@ footer .links {
 footer .links a {
   font-size: 1.4rem;
   color: #fff;
-  /* margin: 0 1.6rem; */
 }
 footer .links a:hover {
   text-decoration: underline;
